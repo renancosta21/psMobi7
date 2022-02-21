@@ -1,3 +1,17 @@
+Para rodar o projeto:
+- npm install na pasta server e na pasta client
+
+- na pasta client:
+  - criar pasta com o nome "apikey" dentro de src
+  - criar arquivo "apiKey.js dentro da pasta apikey com o seguinte conteúdo:
+      const apiKey = 'SUA GOOGLE API KEY';
+      export default apiKey;
+
+- npm start na pasta client e na pasta server (usei npm run dev na pasta server, para rodar o nodemon)
+
+
+Algumas anotações:
+
 npm init -y
 instalação das dpendências
 criação do db chamado "db-data" no mongodb com duas collections:
