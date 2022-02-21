@@ -11,6 +11,7 @@ const positionsController = require('./controllers/positionsController');
 const poisController = require('./controllers/poisController');
 
 app.get('/positions', positionsController.getAllPositions);
+app.get('/positions/:id', positionsController.getPositionsById);
 app.get('/pois', poisController.getAllPois);
 
 
