@@ -14,3 +14,5 @@ instalação da lib cors no server-side para corrigir o erro:
 Access to XMLHttpRequest at 'http://localhost:3001/positions' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 criação do component Map no frontend para realização de alguns testes com a lib @react-google-maps/api
+
+
