@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter className='bg-container'>
+    <BrowserRouter>
       <Routes>
         <Route path="/positions" exact element={<Positions />} />
         <Route path="/pois" exact element={<Pois />} />
