@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 
-const API = 'http://localhost:3001';
+import { fetchPositions } from "../api";
 
 export default function Positions() {
   const [positions, setPositions] = useState([]);
 
   useEffect(() => {
-    axios.get(`${API}/positions`).then((response) => setPositions(response.data))
+    fetchPositions().then((response) => setPositions(response.data))
   }, []);
   
-  console.log(positions)
+  // console.log(positions)
 
   return (
     <div>
