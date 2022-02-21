@@ -15,4 +15,4 @@ Access to XMLHttpRequest at 'http://localhost:3001/positions' from origin 'http:
 
 criação do component Map no frontend para realização de alguns testes com a lib @react-google-maps/api
 
-
+criação da função getPositionsById
