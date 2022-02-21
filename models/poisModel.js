@@ -7,4 +7,4 @@ const getAllPois = async () => {
   return positions;
 };
 
-module.exports = { getAllPois };
+module.exports = {getAllPois};

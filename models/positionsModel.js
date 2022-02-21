@@ -7,4 +7,4 @@ const getAllPositions = async () => {
   return positions;
 };
 
-module.exports = { getAllPositions };
+module.exports = {getAllPositions};
