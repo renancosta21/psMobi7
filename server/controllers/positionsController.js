@@ -1,4 +1,5 @@
 const HTTP_OK_STATUS = 200;
+const HTTP_NOT_FOUND_STATUS = 404;
 
 const positionsModel = require('../models/positionsModel');
 
@@ -12,7 +13,9 @@ const getPositionsById = async (req, res) => {
   const {id} = req.params;
   const positionsById = await positionsModel.getPositionsById(id);
 
-  if (!positionsById) return res.status(404).json({message: 'ID not found'});
+  if (!positionsById) {
+    return res.status(HTTP_NOT_FOUND_STATUS).json({message: 'ID not found'});
+  }
 
   return res.status(200).json(positionsById);
 };
