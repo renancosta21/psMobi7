@@ -1,7 +1,6 @@
 {
   "name": "processo-seletivo-mobi7",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +17,15 @@
     "express": "^4.17.3",
     "mongodb": "^4.4.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renancosta21/psMobi7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/renancosta21/psMobi7/issues"
+  },
+  "homepage": "https://github.com/renancosta21/psMobi7#readme",
+  "description": ""
 }
