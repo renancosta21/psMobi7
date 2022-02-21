@@ -8,7 +8,7 @@ export default function Pois() {
     fetchPois().then((response) => setPois(response.data))
   }, []);
   
-  // console.log(pois)
+  console.log(pois);
 
   return (
     <div>

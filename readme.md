@@ -6,6 +6,7 @@ Para rodar o projeto:
   - criar arquivo "apiKey.js dentro da pasta apikey com o seguinte conteúdo:
       const apiKey = 'SUA GOOGLE API KEY';
       export default apiKey;
+  - untrack a pasta apikey e o arquivo apiKey.js (comando git rm --cached) antes de commitar
 
 - npm start na pasta client e na pasta server (usei npm run dev na pasta server, para rodar o nodemon)
 

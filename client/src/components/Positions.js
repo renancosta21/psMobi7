@@ -9,7 +9,7 @@ export default function Positions() {
     fetchPositions().then((response) => setPositions(response.data))
   }, []);
   
-  // console.log(positions)
+  console.log(positions);
 
   return (
     <div>
