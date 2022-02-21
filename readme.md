@@ -7,3 +7,4 @@ criação do db chamado "db-data" no mongodb com duas collections:
 criação da conexão com o banco de dados
 criação dos models
 criação dos controllers
+criação das rotas no index.js
