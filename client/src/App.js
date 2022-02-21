@@ -1,10 +1,11 @@
 import React from "react";
 import './App.css';
+import Positions from './components/Positions';
 
 function App() {
   return (
     <div>
-      <h1>frontend</h1>
+      <Positions />
     </div>
   );
 }
